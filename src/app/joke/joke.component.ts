@@ -12,7 +12,7 @@ export class JokeComponent {
   constructor(private http: HttpClient, private el: ElementRef) {}
 
   getRandomJoke() {
-    this.http.get<any>('http://localhost:3000/random-joke').subscribe(data => {
+    this.http.get<any>('https://tell-me-a-joke.onrender.com/random-joke').subscribe(data => {
       this.joke = data.joke;
       this.changeBackgroundColor();
     });
