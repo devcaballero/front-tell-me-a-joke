@@ -1,0 +1,23 @@
+.joke-container label {
+    color: white; /* Texto blanco */
+    font-size: 20px; /* Tamaño de fuente */
+    text-shadow: 2px 2px 4px black; /* Efecto sombreado */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+
+  .joke-container button {
+    background-color: #000000; /* Color de fondo */
+    color: white; /* Texto blanco */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cursor de puntero al pasar el ratón */
+    transition: background-color 0.3s; /* Transición suave de color de fondo */
+    border: 1px solid rgba(185, 185, 185, 0.692); /* Borde negro */
+  }
+  
+  .joke-container button:hover {
+    background-color: #636363; /* Color de fondo al pasar el ratón */
+  }
